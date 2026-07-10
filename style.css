@@ -5,16 +5,17 @@
 }
 section{
     padding: 80px 8%;
+    
 }
 .common-buton{
-    width: 10%;
     
-    padding: 12px 10px;
+font-size: 16px;
+    padding: 8px 30px;
     background-color: #1D4ED8;
     color: #FFFFFF;
     border: none;
-    font-size: 16px;
     border-radius: 12px;
+    cursor: pointer;
 }
 nav{
     display: flex;
@@ -28,7 +29,7 @@ nav{
 }
 
     
-ul{
+ nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
@@ -38,6 +39,12 @@ ul{
 a{
     text-decoration: none;
     color: #575757;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 
@@ -68,16 +75,21 @@ align-items: center;
     margin-top: 40px;
     max-width: 600px;
 }
-.banner-content button{
-    margin-top: 400px;
-    width: 20%;
-    padding: 10px;
-    cursor:pointer;
-    border-radius: 8px;
-    
-   
 
+.banner-content {
+    display:flex ;
+    flex-direction: column;
+    
+    align-items: center;
+   text-align: center;
+   height: 70vh;
 }
+
+
+.banner-content button{
+    margin-top: auto;
+}
+
 
 
 /* speaker card section*/
@@ -123,5 +135,109 @@ padding: 10px;
 .card-content p{
     color: #575757;
     padding-top: 10px;
-    font-size: 12;
+    font-size: 12px;
+}
+/* pricing card*/
+
+
+.our-secure{
+    text-align: center;
+   padding-top: 20px;
+   margin-top:-30px ;
+}
+.our-secure p{
+    margin-top: 20px;
+    
+color:#575757 ;
+}
+.card-container{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px ;
+    justify-content: center;
+    margin-top: 70px;
+    
+  
+}
+.card-container .card{
+    background-color:#F8F9FB ;
+  
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid #E5E7EB ;
+}
+
+.card h1{
+    color:#0D1B2A;
+    font-weight: bold;
+    font-size: 42px;
+    padding-top: 10px;
+}
+.card h5{
+    color:#888888 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card p{
+    color: #888888;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card ul li{
+    margin-bottom: 12px;
+    color: #888888;
+    margin-top: 10px;
+}
+
+.card button{
+    width: 100%;
+    padding: 14px;
+    
+    border: 1px solid #60A5FA;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center; 
+   
+}
+
+
+.card-container .card-2{
+    background-color:#0D1B2A ;
+    
+    padding: 30px;
+    border-radius: 12px;
+}
+.card-2 h1{
+    font-weight: bold;
+    font-size: 44px;
+    color:#FFFFFF;
+    padding: 10px;
+}
+.card-2 h5{
+    color: #93C5FD;
+    
+}
+.card-2 p{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.card-2 ul li{
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card-2 button{
+    width: 100%;
+    padding: 14px;
+    background-color:#2563EB ;
+   
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    
+    
 }
