@@ -240,6 +240,10 @@ color:#575757 ;
     
     
 }
+.card-container li::marker{
+    color:#2563EB;
+}
+
 /* dev conference*/
 .devconf{
     padding: 100px 0;
